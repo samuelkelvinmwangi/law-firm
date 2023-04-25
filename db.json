@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Labour-law",
+      "description": "Labor law is legislation specifying responsibilities and rights in employment, particularly the responsibilities of the employer and the rights of the employee.",
+      "img_url": "https://images.pexels.com/photos/6077189/pexels-photo-6077189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 2,
+        "name": "Divorce-law",
+        "description": "The termination of a marriage by legal action, requiring a petition or complaint for divorce (or dissolution in some states, including California) by one party",
+        "img_url": "https://images.pexels.com/photos/618158/pexels-photo-618158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },{
+        "id": 3,
+        "name": "Personal injury-law",
+        "description": "Personal injury law, or sometimes referred to as tort law, covers cases where a person is hurt or injured, as a result of someone else's negligence. This is a form of civil law, which means one private party is suing another, unlike criminal law where the government prosecutes someone.",
+        "img_url": "https://images.pexels.com/photos/2348809/pexels-photo-2348809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },{
+        "id": 4,
+        "name": "Family-law",
+        "description": "Family law, also referred to as domestic relations in many states, is the broad body of law that covers marriage, divorce, child custody, adoption, domestic violence, reproductive rights, and other matters regarding family relationships.",
+        "img_url": "https://images.pexels.com/photos/3784567/pexels-photo-3784567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },{
+        "id": 5,
+        "name": "Criminal-law",
+        "description": "criminal law, the body of law that defines criminal offenses, regulates the apprehension, charging, and trial of suspected persons, and fixes penalties and modes of treatment applicable to convicted offenders.",
+        "img_url": "https://images.pexels.com/photos/270220/pexels-photo-270220.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      },{
+        "id": 6,
+        "name": "Commercial-law",
+        "description": "Commercial law, also known as mercantile law or trade law, is the body of law that applies to the rights, relations, and conduct of persons and business engaged in commerce, merchandising, trade, and sales.",
+        "img_url": "https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      }
+    
+  ]
