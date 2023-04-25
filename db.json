@@ -1,5 +1,7 @@
-[
-    {
+
+{
+    "laws" : [
+     {
       "id": 1,
       "name": "Labour-law",
       "description": "Labor law is legislation specifying responsibilities and rights in employment, particularly the responsibilities of the employer and the rights of the employee.",
@@ -33,3 +35,4 @@
       }
     
   ]
+}
