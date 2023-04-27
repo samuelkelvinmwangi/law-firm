@@ -3,7 +3,7 @@ const baseUrl = 'https://my-json-server.typicode.com/samuelkelvinmwangi/law-firm
 const title = document.getElementById('title');
 const description = document.getElementById('description');
 const fee = document.getElementById('fee');
-
+const services = document.getElementById('services')
 
 function fetchOne(id){
 
@@ -42,7 +42,7 @@ fetch(baseUrl)
         </div>
       </div>`
 
-      
+      services.insertAdjacentHTML("afterbegin", card);
     })
 })
 
