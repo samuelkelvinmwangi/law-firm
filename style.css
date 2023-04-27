@@ -369,24 +369,8 @@ section{
     color: rgb(219, 17, 17);
   }
   /* END OF SERVICE PAGE CSS */
- /* Book Section  */
- .book {
-    margin-bottom:80px;
-  }
-  .header-book {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/book-img-header.jpg);
-    background-repeat: no-repeat;
-    height: 50vh;
-    background-size: cover;
-    background-position:center;
-  }
-  .header-book h1 {
-    color: white;
-    padding-top: 80px;
-  }
-  .header-book p {
-    color: white;
-  }
+ /* appointment Section  */
+
 
 .info-btn {
   margin-bottom: 10px;
@@ -405,21 +389,7 @@ section{
 .flex-info-body {
   border: 1px solid rgb(219, 17, 17);
 }
- /* How it works  */
-.bi-book {
-  font-size: 50px;
-  line-height: 2;
-  color: rgb(219, 17, 17);
-}
-.book-title {
-  color: rgb(219, 17, 17);
-}
-.how-it-works {
-  margin-bottom: 80px;
-  background: #d0d0d0;
-  padding:40px;
-  color: #080705;
-}
+
 /* Print Message  */
 .message {
   border: 1px solid rgb(219, 17, 17);
@@ -519,3 +489,22 @@ section{
   border: 2px solid rgb(219, 17, 17);
 }
 /* END OF APPOINTMENT CSS  */
+
+/* Remove extra left and right margins, due to padding */
+.services {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.services:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .services {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
