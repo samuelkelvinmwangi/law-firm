@@ -192,8 +192,7 @@
         <div class="practice-areas">
           <div class="row">
             <div class="col-md-4">
-              <div class="card h-100">
-                
+              <div class="card h-100">    
                 <div class="card-body">
                   <h5 id="title" class="card-title">NAME</h5>
                   <p id="description"class="card-text">DESCRIPTION</p>
@@ -209,6 +208,143 @@
       </div>
     </section>
       <!-- END OF SERVICE CARDS CONTAINER -->
+
+      <!--appointment-->
+      <div class="container-fluid">
+        <section class="book text-center">
+          <h2 class="book-title"  id="appointment">Appointment</h2>
+          <div class="container">
+              <form class="info form-group" id="form-info">
+                <div class="card ">
+                  <div class="card-body flex-info-body">
+                        <label for="names" class="names" id="names">Full Name</label>
+                        <input type="text" value="" class="name form-control" id="fullname"><br>
+                        <label for="service" class="services" id = "services">Serivce</label>
+                        <select name="service" id="service" class="form-control">
+                          <option value=""></option>
+                          <option value="Divorce">Divorce</option>
+                           <option value="Family">Family</option>
+                          <option value="Personal Injury">Personal Injury</option>
+                          <option value="Labor Law">Labor Law</option>
+                          <option value="Commercial Law">Commercial Law</option>
+                          <option value="Criminal Law">Criminal Law</option>  
+                        </select>
+                        <label for="day">Appointment</label>
+                        <input  id = "get-date" type="date" name="birthday"  class= "form-control" placeholder="Enter Date" required>
+                        <label for="time">Time</label><br>
+                        <select name="time" id="time" class= "form-control">
+                          <option value="time"></option>
+                          <option value="8:00 a.m">8:00 a.m</option>
+                          <option value="9:00 a.m ">9:00 a.m </option>
+                          <option value="10:00 a.m">10:00 a.m </option>
+                          <option value="11:00 a.m">11:00 a.m </option>
+                          <option value="12:00 a.m">12:00 a.m </option>
+                          <option value="1:00 p.m">1:00 p.m </option>
+                          <option value="2:00 p.m ">2:00 p.m </option>
+                          <option value="3:00 p.m ">3:00 p.m </option>
+                          <option value="4:00 p.m">4:00 p.m </option>
+                          <option value="5:00 p.m">5:00 p.m</option>
+                          <option value="6:00 p.m ">6:00 p.m</option>
+                        </select>
+                        <label for="communication"class="communication">Communication</label>
+                        <select name="comm" id="comm" class= "form-control" >
+                            <option value=""></option>
+                            <option value="Google Meet">Google Meet</option>
+                            <option value="Zoom">Zoom</option>
+                            <option value="Phone Call">Phone Call</option>
+                        </select>
+                      <button name="info-btn" class="info-btn" id="info-btn" onclick="click" value="submit">Continue</button>
+                    </div>
+                  </div>
+                </div> 
+              </form>
+           </div>
+
+           
+    <!-- Appointment date display  -->
+            <div class="container">
+              <div class="card ">
+                <div class="card-body message">
+                  <div class="app-message">
+                    <div id="show-app">
+                      <p class="message-text">Appointment: <span id="displayAppointment"></span></p>
+                      <p class="message-text">Mode of Communication: <span id="modeOfComm"></span></p>
+                      <p class="message-text">Service type: <span id="serviceType"></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+    <!-- Price  -->
+        <section class="price text-center">
+          <div class="container">
+            <h2 class="payment-title">Payment</h2>
+            <div class="card card-pay">
+              <h3>Pay for your Consultation</h3>
+              <div class="card-body-pay">
+                <i class="bi-payment bi-cash"></i><br>
+                <button name="pay" class="pay" id="pay" onclick="click">Pay</button>
+                  <form action="" name="payment" class="payment form-group" id="payment">
+                    <label for="name" class="paymentname" id="paymentName">Full Name</label><br>
+                    <input type="text" class="pname form-control" id="pname"><br>
+                    <label for="email" class="email" id="email">Email</label><br>
+                    <input type="text" class="emailaddress form-control" id="emailaddress"><br>
+                    <label for="mode">Mode of Payment</label><br>
+                    <select name="modeofpayment" id="modeOfPayment" class="modepayment form-control">
+                      <option value=""></option>
+                      <option value="Cash">Cash</option>
+                      <option value="Cash">Card</option>
+                      <option value="Cash">M-Pesa</option>
+                    </select><br>
+                    <button class="paymentconfirm" id="paymentconfirm" onclick="click">Confirm Payment</button>
+                  </form>
+              </div>
+            </div> 
+          </div>
+        </section>
+
+
+
+    <!-- Footer  -->
+    <footer> 
+      <div class="footer sticky-bottom" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-2">
+                    <div class="footer-contact">
+                        <h5>Get in Touch</h5>
+                        <i class="bi-footer bi-telephone-fill"></i>
+                        <span>+254729539440<span>
+                        <br>
+                        <i class="bi-footer bi-envelope-fill"></i>
+                        <span>law-firm@info.co.ke</span>
+                        <br>
+                        <i class="bi-footer bi-geo-alt"></i>
+                        <span>Kahawa, Nairobi.</span>
+                    </div>
+                </div>
+                <div class="col-md-6 form-message">
+                    <div class="mb-3 ">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3 ">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="button" class="btn btn-footer-message">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+              &copy; law-firm 2023. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="index.js"></script>
 </body>
