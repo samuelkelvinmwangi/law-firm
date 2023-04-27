@@ -1,17 +1,20 @@
-const baseurl = 'https://my-json-server.typicode.com/samuelkelvinmwangi/law-firm/db';
+const baseUrl = 'https://my-json-server.typicode.com/samuelkelvinmwangi/law-firm/laws';
 
-const img = document.querySelector('#src');
-const name = document.querySelector('#title');
-const description = document.querySelector('#description');
-const fee = document.querySelector('#fee');
+const title = document.getElementById('title');
+const description = document.getElementById('description');
+const fee = document.getElementById('fee');
 
-document.addEventListener("DOMContentLoaded", () =>{
 
-    function fetchOne (id = 1) {
-    fetch('https://my-json-server.typicode.com/samuelkelvinmwangi/law-firm/db')
-    .then(response => response.json())
-    .then((data) => console.log(data));
-    }
-    fetchOne()
+function fetchOne(id){
 
-})
+    fetch(`${baseUrl}/${id}`)
+    .then((res) => res.json())
+    .then((laws) => {
+        
+        title.innerHTML = laws.name;
+        description.innerHTML = laws.description;
+        fee.innerHTML = laws.fee;
+    });
+}
+fetchOne(1)
+
