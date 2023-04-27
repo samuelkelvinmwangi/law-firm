@@ -387,9 +387,6 @@ section{
   .header-book p {
     color: white;
   }
-/* .info {
-  display: flex;
-  justify-content: space-evenly; */
 
 .info-btn {
   margin-bottom: 10px;
@@ -404,9 +401,7 @@ section{
   border: 2px solid rgb(219, 17, 17);
   color:rgb(219, 17, 17);
 }
-/* .flex-info {
-  /* height: 200px; */
-/* } */ 
+
 .flex-info-body {
   border: 1px solid rgb(219, 17, 17);
 }
